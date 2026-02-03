@@ -5,6 +5,18 @@ QuodWords is a deterministic, human-readable location encoding system that conve
 
 ---
 
+## Project status (v0 series)
+
+This repository is the **reference implementation** of QuodWords and its supporting artifacts.
+
+- The normative rules live in **SPEC.md**.
+- This code is intended to be **deterministic and reproducible** across implementations.
+- The v0 series is **pre-1.0**: breaking changes may occur and will be explicitly versioned.
+
+If you are looking for a production SDK, this repo is not that (yet).
+
+---
+
 ## Why QuodWords exists
 
 Sharing precise locations is still harder than it should be. Latitude and longitude are accurate but awkward for humans, easy to mistype, and difficult to communicate verbally. Many existing alternatives rely on proprietary services, opaque encoding schemes, or online lookups, which limits their usefulness in offline, outdoor, or low-connectivity situations. QuodWords exists to provide a simple, transparent, and offline-friendly way to refer to locations using ordinary words, while remaining deterministic, predictable, and straightforward for developers to implement.
