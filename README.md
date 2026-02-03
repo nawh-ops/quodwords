@@ -75,3 +75,27 @@ The name “QuodWords” and associated branding may be protected as trademarks.
 
 
 ---
+
+## List changes
+
+If you change the list, it must be a new file: `en_v1.txt` — never edit `en_v0.txt`.
+
+
+---
+
+## Spoken use (phonetic rendering)
+
+When QuodWords codes are communicated verbally (e.g. radio, phone, or in-field coordination), a fixed pronunciation protocol MUST be used to avoid ambiguity.
+
+- Tokens of **length ≤ 3 characters** MUST be spelled letter-by-letter using the **NATO phonetic alphabet**  
+    (e.g. `aa` → “Alfa Alfa”, `abc` → “Alfa Bravo Charlie”).
+    
+- Tokens of **length ≥ 4 characters** SHOULD be spoken as normal English words  
+    (e.g. `abandon`, `muscle`).
+    
+
+This rule ensures unambiguous verbal transmission regardless of accent, language background, or whether a token resembles an abbreviation. The underlying wordlist remains language-agnostic; spoken rendering is treated as a separate presentation layer.
+
+---
+
+
