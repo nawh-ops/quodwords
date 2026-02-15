@@ -1,0 +1,64 @@
+{
+  "schema": "quodwords-test-vectors-1",
+  "version": "0.0.0",
+  "format": "word.word.word",
+  "decode_returns": "cell_center_and_bounds",
+  "notes": "Golden test vectors for QuodWords v0.0.0 reference implementation.",
+  "vectors": [
+    {
+      "id": "greenwich-observatory",
+      "lat": 51.476852,
+      "lon": -0.0005,
+      "quodwords": "alpha.bravo.charlie",
+      "expected": {
+        "center": {
+          "lat": 51.47685,
+          "lon": -0.0005
+        },
+        "bounds": {
+          "south": 51.4768,
+          "west": -0.00055,
+          "north": 51.4769,
+          "east": -0.00045
+        }
+      }
+    },
+    {
+      "id": "san-francisco-downtown",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "quodwords": "delta.echo.foxtrot",
+      "expected": {
+        "center": {
+          "lat": 37.7749,
+          "lon": -122.4194
+        },
+        "bounds": {
+          "south": 37.77485,
+          "west": -122.41945,
+          "north": 37.77495,
+          "east": -122.41935
+        }
+      }
+    },
+    {
+      "id": "cape-town-city-bowl",
+      "lat": -33.9249,
+      "lon": 18.4241,
+      "quodwords": "golf.hotel.india",
+      "expected": {
+        "center": {
+          "lat": -33.9249,
+          "lon": 18.4241
+        },
+        "bounds": {
+          "south": -33.92495,
+          "west": 18.42405,
+          "north": -33.92485,
+          "east": 18.42415
+        }
+      }
+    }
+  ],
+  "parse_tests": []
+}
