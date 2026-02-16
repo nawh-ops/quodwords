@@ -27,3 +27,4 @@ dist/
 # OS / temp
 *.swp
 *.tmp
+wordlists/*.rtf
