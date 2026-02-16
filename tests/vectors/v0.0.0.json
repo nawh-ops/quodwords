@@ -58,6 +58,24 @@
           "east": 18.42415
         }
       }
+    },
+    {
+      "id": "date-line-east-of-180",
+      "lat": 0.0000,
+      "lon": 179.9999,
+      "quodwords": "juliet.kilo.lima",
+      "expected": {
+        "center": {
+          "lat": 0.0000,
+          "lon": 179.9999
+        },
+        "bounds": {
+          "south": -0.00005,
+          "west": 179.99985,
+          "north": 0.00005,
+          "east": 179.99995
+        }
+      }
     }
   ],
   "parse_tests": []
