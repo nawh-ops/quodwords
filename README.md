@@ -3,7 +3,7 @@
 
 QuodWords is a deterministic, human-readable location encoding system that converts geographic coordinates into short sequences of real words. Each QuodWord uniquely represents a fixed location on Earth and can be encoded and decoded without network access. The system is designed to be simple to implement, predictable in behaviour, and stable over time, making it suitable for use in mapping, navigation, outdoor activities, and location sharing where traditional latitude/longitude or plus-code style references are inconvenient or error-prone.
 
----
+
 
 ## Project status (v0 series)
 
@@ -15,13 +15,13 @@ This repository is the **reference implementation** of QuodWords and its support
 
 If you are looking for a production SDK, this repo is not that (yet).
 
----
+
 
 ## Why QuodWords exists
 
 Sharing precise locations is still harder than it should be. Latitude and longitude are accurate but awkward for humans, easy to mistype, and difficult to communicate verbally. Many existing alternatives rely on proprietary services, opaque encoding schemes, or online lookups, which limits their usefulness in offline, outdoor, or low-connectivity situations. QuodWords exists to provide a simple, transparent, and offline-friendly way to refer to locations using ordinary words, while remaining deterministic, predictable, and straightforward for developers to implement.
 
----
+
 
 ## How QuodWords works
 
@@ -31,7 +31,7 @@ Each QuodWord is constructed from a predefined list of ordinary words. The mappi
 
 The system is designed so that small transcription errors result in clearly invalid or distant locations rather than subtly incorrect nearby ones. This prioritises clarity and safety over accidental plausibility when QuodWords are shared verbally, written down, or transmitted in constrained environments.
 
----
+
 
 ## Examples
 
@@ -57,7 +57,6 @@ Longitude: -0.1278
 ```
 
 
----
 
 ## Determinism and offline guarantees
 
@@ -67,7 +66,7 @@ All operations can be performed entirely offline. Encoding and decoding require 
 
 Changes to wordlists or encoding rules, if any, will be explicitly versioned to preserve reproducibility and prevent silent changes in behaviour.
 
----
+
 
 ## Versioning and stability
 
@@ -86,14 +85,21 @@ The QuodWords reference implementation is released under the terms of the accomp
 The name “QuodWords” and associated branding may be protected as trademarks. Use of the name does not imply endorsement or affiliation unless explicitly stated.
 
 
----
+
+
+## Prior art and alternative encodings
+
+This repository also documents earlier and alternative QuodWords encoding concepts, including alphanumeric and phonetic-based forms, disclosed for completeness and prior-art purposes.
+
+See [`PRIOR_ART.md`](PRIOR_ART.md) for details and worked examples.
+
 
 ## List changes
 
 If you change the list, it must be a new file: `en_v1.txt` — never edit `en_v0.txt`.
 
 
----
+
 
 ## Spoken use (phonetic rendering)
 
@@ -108,6 +114,5 @@ When QuodWords codes are communicated verbally (e.g. radio, phone, or in-field c
 
 This rule ensures unambiguous verbal transmission regardless of accent, language background, or whether a token resembles an abbreviation. The underlying wordlist remains language-agnostic; spoken rendering is treated as a separate presentation layer.
 
----
 
 
