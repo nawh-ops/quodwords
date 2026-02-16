@@ -1,7 +1,8 @@
 
 ## What is QuodWords?
 
-QuodWords is a deterministic, human-readable location encoding system that converts geographic coordinates into short sequences of real words. Each QuodWord uniquely represents a fixed location on Earth and can be encoded and decoded without network access. The system is designed to be simple to implement, predictable in behaviour, and stable over time, making it suitable for use in mapping, navigation, outdoor activities, and location sharing where traditional latitude/longitude or plus-code style references are inconvenient or error-prone.
+
+QuodWords is an open, deterministic, human-readable location encoding system that converts geographic coordinates into short sequences of real words. Each QuodWord uniquely represents a fixed location on Earth and can be encoded and decoded without network access. The system is designed to be simple to implement, predictable in behaviour, and stable over time, making it suitable for mapping, navigation, outdoor activities, and location sharing where traditional latitude/longitude, plus-code style references, or proprietary location codes are inconvenient or error-prone.
 
 
 
