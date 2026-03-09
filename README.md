@@ -116,4 +116,8 @@ When QuodWords codes are communicated verbally (e.g. radio, phone, or in-field c
 This rule ensures unambiguous verbal transmission regardless of accent, language background, or whether a token resembles an abbreviation. The underlying wordlist remains language-agnostic; spoken rendering is treated as a separate presentation layer.
 
 
+## Specification
 
+The normative technical specification for the QuodWords encoding system is defined in:
+
+SPEC.md
