@@ -7,6 +7,7 @@ offline-compatible encoding and decoding behaviour.
 The accompanying README.md provides conceptual and human-facing documentation.
 Where conflicts arise, this SPEC.md takes precedence.
 
+Version 0.1 – March 2026
 ---
 
 © 2026 RouteBuddy GIS Ltd.
