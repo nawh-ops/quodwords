@@ -9,6 +9,12 @@ Where conflicts arise, this SPEC.md takes precedence.
 
 ---
 
+## 0. © 2026 RouteBuddy GIS Ltd.
+
+The QUODWORDS name is a registered trademark of RouteBuddy GIS Ltd.
+
+---
+
 ## 1. Scope and goals
 
 QuodWords is a deterministic location encoding system that maps geographic
